@@ -8,7 +8,7 @@ import {
   signInFailure,
 } from '../redux/user/userSlice';
 import OAuth from '../components/OAuth';
-import { signinRoutes, signupRoutes } from '../utils/ApiRoutes';
+import { signinRoutes } from '../utils/ApiRoutes';
 
 export default function SignIn() {
   const [formData, setFormData] = useState({});
