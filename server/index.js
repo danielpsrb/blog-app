@@ -26,7 +26,7 @@ const __dirname = path.resolve();
 const app = express();
 
 app.use(cors({
-  origin: 'https://dans-blog-app.vercel.app/',
+  origin: 'https://dans-blog-app.vercel.app',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, // Izinkan pengiriman kredensial (contohnya, cookies)
 }));
